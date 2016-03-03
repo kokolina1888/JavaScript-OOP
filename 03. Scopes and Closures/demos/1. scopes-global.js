@@ -1,7 +1,7 @@
 function stringRepeat(ch, times) {
 	//global variable
 	//'use strict' //solves this
-	str = '';
+	var str = '';
 	for (var i = 0; i < times; i += 1) {
 		str += ch;
 	}

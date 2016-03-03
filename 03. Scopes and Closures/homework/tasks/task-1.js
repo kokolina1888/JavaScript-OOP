@@ -29,9 +29,11 @@ function solve() {
 		}
 
 		function addBook(book) {
+			
 			book.ID = books.length + 1;
 			books.push(book);
 			return book;
+		
 		}
 
 		function listCategories() {

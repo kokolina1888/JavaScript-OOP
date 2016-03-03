@@ -1,7 +1,7 @@
 if (true) {
 	//uncomment to create function scope
-	//(function(){
+	(function(){
 	var result = 'From the if';
-	//}());
+	}());
 }
 console.log(result);

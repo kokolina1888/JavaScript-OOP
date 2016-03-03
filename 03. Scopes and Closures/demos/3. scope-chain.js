@@ -12,5 +12,5 @@ function outer() {
   };
 }
 
+//console.log(outer().x);
 console.log(outer().x);
-console.log(outer().f());
